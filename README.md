@@ -5,6 +5,7 @@ An *always up-to-date* Create React App template with the following technologies
 - [Create React App](https://create-react-app.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Prettier](https://prettier.io/)
+- [Jest](https://jestjs.io/)
 - [Renovate](https://renovate.whitesourcesoftware.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
