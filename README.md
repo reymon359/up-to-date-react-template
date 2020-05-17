@@ -13,6 +13,18 @@ An _always up to date_ React Template with the following technologies:
 
 Just run `npm install`
 
+To update the Github Actions badge on the `README.md` replace `reymon359`
+
+```md
+![](https://github.com/reymon359/create-react-app-template/workflows/Build,%20Format%20and%20Test/badge.svg)
+```
+
+With your github username
+
+```md
+![](https://github.com/<USERNAME>/create-react-app-template/workflows/Build,%20Format%20and%20Test/badge.svg)
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
