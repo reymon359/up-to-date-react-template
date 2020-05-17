@@ -1,0 +1,37 @@
+name: Create React App Template CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+    - name: Checkout
+    - uses: actions/checkout@v2
+      
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+    - name: Install project with a clean slate
+    - run: npm ci
+    
+    - name: Format files with Prettier
+    - run: npm run format
+    
+    - name: Build the project
+    - run: npm run build --if-present
+    
+    - name: Run tests
+    - run: npm test
