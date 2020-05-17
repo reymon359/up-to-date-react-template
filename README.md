@@ -1,12 +1,12 @@
-# react-template
+# Up to date React Template
 
-An *always up-to-date* Create React App template with the following technologies:
+An _always up to date_ React Template with the following technologies:
 
-- [Create React App](https://create-react-app.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Prettier](https://prettier.io/)
-- [Jest](https://jestjs.io/)
-- [Renovate](https://renovate.whitesourcesoftware.com/)
+- [Create React App](https://create-react-app.dev/) for the boilerplate.
+- [TypeScript](https://www.typescriptlang.org/) and all its advantages!
+- [Prettier](https://prettier.io/) to format files.
+- [Jest](https://jestjs.io/) for testing.
+- [Renovate](https://renovate.whitesourcesoftware.com/) to check and update dependences.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
