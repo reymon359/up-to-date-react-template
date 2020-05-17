@@ -2,13 +2,12 @@
 
 An _always up to date_ React Template with the following technologies:
 
-- [Create React App](https://create-react-app.dev/) for the boilerplate.
-- [TypeScript](https://www.typescriptlang.org/) and all its advantages!
-- [Prettier](https://prettier.io/) to format files.
-- [Jest](https://jestjs.io/) for testing.
-- [Renovate](https://renovate.whitesourcesoftware.com/) to check and update dependences.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 🏗[Create React App](https://create-react-app.dev/) as the boilerplate.
+- 🔥[TypeScript](https://www.typescriptlang.org/) for type-safe code and other advantages!
+- 👌[Prettier](https://prettier.io/) to format files.
+- ✅[Jest](https://jestjs.io/) for testing.
+- 🤖[Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
+- 👷‍♂️[Github Actions](https://github.com/features/actions) for Continuous Integration.
 
 ## Setup the project
 
