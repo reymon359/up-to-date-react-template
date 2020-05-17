@@ -1,4 +1,4 @@
-# Up to date React Template
+# Up to date React Template ![](https://github.com/reymon359/create-react-app-template/workflows/Build,%20Format%20and%20Test/badge.svg)
 
 An _always up to date_ React Template with the following technologies:
 
