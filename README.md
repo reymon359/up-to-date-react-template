@@ -9,6 +9,17 @@ An _always up to date_ React Template with the following technologies:
 - 🤖[Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
 - 👷‍♂️[Github Actions](https://github.com/features/actions) for Continuous Integration.
 
+## Motivation
+
+When you have been working on a project for a long time you usually forget to update the packages you are using. 
+And why if the project works perfectly with the current ones? 
+
+This kind of thinking makes updating and renewing the project packages to be forgotten and never done. This is why I made this _always up to date_ React Template which always will have the **dependencies updated without making the project fail**.
+
+How? I added the [renovate bot](https://github.com/renovatebot) to check for dependencies updates and also to submit PRs to update them. Also, set up a CI with [GitHub Actions](https://github.com/features/actions) to always check that the build passes with the updated dependencies in the PR before merging it with master.
+
+I did not add any styling library to leave that personal option to the user. Although I am planning to add [Storybook](https://storybook.js.org/) to it.
+
 ## Setup the project
 
 Just run `npm install`
