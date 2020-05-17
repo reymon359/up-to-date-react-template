@@ -1,4 +1,4 @@
-# Up to date React Template ![](https://github.com/reymon359/create-react-app-template/workflows/Build,%20Format%20and%20Test/badge.svg)
+# Up to date React Template ![](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg)
 
 An _always up to date_ React Template with the following technologies:
 
@@ -16,14 +16,15 @@ Just run `npm install`
 To update the Github Actions badge on the `README.md` replace `reymon359`
 
 ```md
-![](https://github.com/reymon359/create-react-app-template/workflows/Build,%20Format%20and%20Test/badge.svg)
+![](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg)
 ```
 
-With your github username
+With your GitHub username (and repository name in case you have renamed it).
 
 ```md
-![](https://github.com/<USERNAME>/create-react-app-template/workflows/Build,%20Format%20and%20Test/badge.svg)
+![](https://github.com/<USERNAME>/<REPOSITORY>/workflows/Build,%20Format%20and%20Test/badge.svg)
 ```
+
 
 ## Available Scripts
 
