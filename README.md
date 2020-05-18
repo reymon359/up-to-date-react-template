@@ -11,8 +11,7 @@ An _always up to date_ React Template with the following technologies:
 
 ## Motivation
 
-When working on a project for a long time updating the packages that are being used is usually forgotten.
-And why if the project works perfectly with the current ones? 
+In software development keeping up to date with technologies is crucial and when working on a project for a long time updating the packages that are being used is usually forgotten. And why if the project works perfectly with the current ones? 
 
 This kind of thinking makes updating and renewing the project packages to be forgotten and never done. This is why I made this _always up to date_ React Template which always will have the **dependencies updated without making the project fail**.
 
