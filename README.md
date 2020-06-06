@@ -1,4 +1,4 @@
-# Up to date React Template ![](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg)
+# Up to date React Template ![](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg) [![codecov](https://codecov.io/gh/reymon359/up-to-date-react-template/branch/master/graph/badge.svg)](https://codecov.io/gh/reymon359/up-to-date-react-template)
 
 An _always up to date_ React Template with the following technologies:
 
