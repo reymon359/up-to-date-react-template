@@ -5,6 +5,7 @@
   "homepage": "https://reymon359.github.io/up-to-date-react-template",
   "version": "1.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
