@@ -1,4 +1,4 @@
-# Up to date React Template ![](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg)
+# Up to date React Template ![](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg) ![Version: master](https://img.shields.io/github/package-json/v/reymon359/up-to-date-react-template?logo=github) ![License: MIT](https://img.shields.io/github/license/reymon359/up-to-date-react-template?color=blue&logo=github)
 
 An _always up to date_ React Template with the following technologies:
 
