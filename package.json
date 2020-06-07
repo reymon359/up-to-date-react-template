@@ -1,8 +1,9 @@
 {
   "name": "up-to-date-react-template",
-  "description": "Open source always up to date react template",
+  "description": "Open Source always up to date React template",
   "author": "ramon morcillo @reymon359",
-  "version": "1.0.0",
+  "homepage": "https://reymon359.github.io/up-to-date-react-template",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
