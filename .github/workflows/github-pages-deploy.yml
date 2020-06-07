@@ -5,23 +5,26 @@ on:
     branches: [master]
 
 jobs:
-  gh-pages-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
-    name: Deploy to gh-pages
     steps:
       - name: Checkout branch
         uses: actions/checkout@v2
 
-      - name: Setup Node.js for use with actions
-        uses: actions/setup-node@v1.1.0
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          version:  12.x
+          node-version: ${{ matrix.node-version }}
 
-      - name: Install project with a clean slate
-        run: npm ci
+      - name: Install Project Packages
+        run: npm install
 
-      - name: Run deploy script
-        run: |
-          git config user.name "reymon359" && git config user.email "ramonmorcillocascales@gmail.com"
-          npm run deploy
+      - name: Build the project for production
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./build
