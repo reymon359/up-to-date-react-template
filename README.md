@@ -1,12 +1,20 @@
-# Up to date React Template ![](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg) ![Version: master](https://img.shields.io/github/package-json/v/reymon359/up-to-date-react-template?logo=github) ![License: MIT](https://img.shields.io/github/license/reymon359/up-to-date-react-template?color=blue&logo=github) ![Last commit](https://img.shields.io/github/last-commit/reymon359/up-to-date-react-template?logo=github) ![GitHub Pages Deploy](https://img.shields.io/github/deployments/reymon359/up-to-date-react-template/github-pages?label=deploy&logo=github) 
+# Up to date React Template 
+
+[![Build Format and Test Workflow](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg)](https://github.com/reymon359/up-to-date-react-template/actions?query=workflow%3A%22Build%2C+Format+and+Test%22) 
+[![Version: master](https://img.shields.io/github/package-json/v/reymon359/up-to-date-react-template?logo=github)](https://github.com/reymon359/up-to-date-react-template/blob/6b31aad56eae7065e68d38bae9ffbe53db556f6f/package.json#L6)
+[![License: MIT](https://img.shields.io/github/license/reymon359/up-to-date-react-template?color=blue&logo=github)](https://github.com/reymon359/up-to-date-react-template/blob/master/LICENSE) 
+[![Last commit](https://img.shields.io/github/last-commit/reymon359/up-to-date-react-template?logo=github)](https://github.com/reymon359/up-to-date-react-template/commits/master) 
+[![GitHub Pages Deploy](https://img.shields.io/github/deployments/reymon359/up-to-date-react-template/github-pages?label=deploy&logo=github)](https://github.com/reymon359/up-to-date-react-template/deployments)
+
+<sub>_Click the badges to have a look😉_<sub>
 
 An _always up to date_ React Template with the following technologies:
 
-- 🏗[Create React App](https://create-react-app.dev/) as the boilerplate.
-- 🔥[TypeScript](https://www.typescriptlang.org/) for type-safe code and other advantages!
-- 👌[Prettier](https://prettier.io/) to format files.
-- ✅[Jest](https://jestjs.io/) for testing.
-- 🤖[Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
+- 🏗 [Create React App](https://create-react-app.dev/) as the boilerplate.
+- 🔥 [TypeScript](https://www.typescriptlang.org/) for type-safe code and other advantages!
+- 👌 [Prettier](https://prettier.io/) to format files.
+- ✅ [Jest](https://jestjs.io/) for testing.
+- 🤖 [Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
 - 👷‍♂️[Github Actions](https://github.com/features/actions) for Continuous Integration.
 
 ## Motivation
