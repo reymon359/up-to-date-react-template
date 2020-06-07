@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/up-to-date-react-template/static/css/main.5f361e03.chunk.css",
+    "main.js": "/up-to-date-react-template/static/js/main.2f486a32.chunk.js",
+    "main.js.map": "/up-to-date-react-template/static/js/main.2f486a32.chunk.js.map",
+    "runtime-main.js": "/up-to-date-react-template/static/js/runtime-main.de05742d.js",
+    "runtime-main.js.map": "/up-to-date-react-template/static/js/runtime-main.de05742d.js.map",
+    "static/js/2.19d294cf.chunk.js": "/up-to-date-react-template/static/js/2.19d294cf.chunk.js",
+    "static/js/2.19d294cf.chunk.js.map": "/up-to-date-react-template/static/js/2.19d294cf.chunk.js.map",
+    "index.html": "/up-to-date-react-template/index.html",
+    "precache-manifest.ea6d1309e73965487093440d4a797d07.js": "/up-to-date-react-template/precache-manifest.ea6d1309e73965487093440d4a797d07.js",
+    "service-worker.js": "/up-to-date-react-template/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/up-to-date-react-template/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.19d294cf.chunk.js.LICENSE.txt": "/up-to-date-react-template/static/js/2.19d294cf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/up-to-date-react-template/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de05742d.js",
+    "static/js/2.19d294cf.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2f486a32.chunk.js"
+  ]
+}
