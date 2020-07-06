@@ -15,7 +15,8 @@ An _always up to date_ React Template with the following technologies:
 - 👌 [Prettier](https://prettier.io/) to format files.
 - ✅ [Jest](https://jestjs.io/) for testing.
 - 🤖 [Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
-- 👷‍♂️[Github Actions](https://github.com/features/actions) for Continuous Integration.
+- 👷‍♂️[GitHub Actions](https://github.com/features/actions) for Continuous Integration.
+- 🚀[GitHub Pages](https://pages.github.com/) to deploy the project.
 
 ## Motivation
 
