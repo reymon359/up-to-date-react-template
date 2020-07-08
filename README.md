@@ -17,6 +17,7 @@ An _always up to date_ React Template with the following technologies:
 - 🤖 [Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
 - 👷‍♂️[GitHub Actions](https://github.com/features/actions) for Continuous Integration.
 - 🚀[GitHub Pages](https://pages.github.com/) to deploy the project.
+- 💬[Commitlint](https://github.com/conventional-changelog/commitlint) to enforce [conventional commit format](https://www.conventionalcommits.org/).
 
 ## Motivation
 
