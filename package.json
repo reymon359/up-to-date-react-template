@@ -44,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "9.0.1",
+    "@commitlint/config-conventional": "9.0.1"
   }
 }
