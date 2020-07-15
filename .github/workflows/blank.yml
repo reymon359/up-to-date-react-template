@@ -1,4 +1,4 @@
-name: GitGuardian scan
+name: Scan exposed credentials
 
 on: [push, pull_request]
 
