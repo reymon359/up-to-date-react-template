@@ -1,7 +1,6 @@
 # Up to date React Template 
 
 [![Build Format and Test Workflow](https://github.com/reymon359/up-to-date-react-template/workflows/Build,%20Format%20and%20Test/badge.svg)](https://github.com/reymon359/up-to-date-react-template/actions?query=workflow%3A%22Build%2C+Format+and+Test%22) 
-[![Version: master](https://img.shields.io/github/package-json/v/reymon359/up-to-date-react-template?logo=github)](https://github.com/reymon359/up-to-date-react-template/blob/6b31aad56eae7065e68d38bae9ffbe53db556f6f/package.json#L6)
 [![License: MIT](https://img.shields.io/github/license/reymon359/up-to-date-react-template?color=blue&logo=github)](https://github.com/reymon359/up-to-date-react-template/blob/master/LICENSE) 
 [![Last commit](https://img.shields.io/github/last-commit/reymon359/up-to-date-react-template?logo=github)](https://github.com/reymon359/up-to-date-react-template/commits/master) 
 [![GitHub Pages Deploy](https://img.shields.io/github/deployments/reymon359/up-to-date-react-template/github-pages?label=deploy&logo=github)](https://github.com/reymon359/up-to-date-react-template/deployments)
