@@ -1,4 +1,4 @@
-name: Build, Format and Test
+name: Build, Lint and Test
 
 on:
   push:
@@ -26,8 +26,8 @@ jobs:
       - name: Install project with a clean slate
         run: npm ci
 
-      - name: Format files with Prettier
-        run: npm run format
+      - name: Lint files with ESlint
+        run: npm run lint
 
       - name: Build the project
         run: npm run build --if-present
