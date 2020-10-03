@@ -9,15 +9,16 @@
 
 An _always up to date_ React Template with the following technologies:
 
-- 🏗 [Create React App](https://create-react-app.dev/) as the boilerplate.
-- 🔥 [TypeScript](https://www.typescriptlang.org/) for type-safe code and other advantages!
-- 👌 [Prettier](https://prettier.io/) to format files.
-- ✅ [Jest](https://jestjs.io/) for testing.
-- 🤖 [Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
-- 👷‍♂️ [GitHub Actions](https://github.com/features/actions) for Continuous Integration.
-- 🚀 [GitHub Pages](https://pages.github.com/) to deploy the project.
-- 💬 [Commitlint](https://github.com/conventional-changelog/commitlint) to enforce [conventional commit format](https://www.conventionalcommits.org/).
-- 🦉 [GitGuardian](https://github.com/marketplace/actions/gitguardian-shield-action) to check for exposed credentials.
+- [Create React App](https://create-react-app.dev/) as the boilerplate.
+- [TypeScript](https://www.typescriptlang.org/) for type-safe code and other advantages!
+- [ESlint](https://eslint.org/) To find and fix problems in your JavaScript code.
+- [Prettier](https://prettier.io/) to format files.
+- [Jest](https://jestjs.io/) for testing.
+- [Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
+- [GitHub Actions](https://github.com/features/actions) for Continuous Integration.
+- [GitHub Pages](https://pages.github.com/) to deploy the project.
+- [Commitlint](https://github.com/conventional-changelog/commitlint) to enforce [conventional commit format](https://www.conventionalcommits.org/).
+- [GitGuardian](https://github.com/marketplace/actions/gitguardian-shield-action) to check for exposed credentials.
 
 ## Motivation
 
@@ -57,6 +58,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### `npm run lint` & `npm run lint:fix`
+
+Run ESLint on the project to report wrong patterns on the code, and the second one also tries to fix them.
+
 
 ### `npm run format`
 
