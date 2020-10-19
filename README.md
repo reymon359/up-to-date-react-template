@@ -13,6 +13,7 @@ An _always up to date_ React Template with the following technologies:
 - [TypeScript](https://www.typescriptlang.org/) for type-safe code and other advantages!
 - [ESlint](https://eslint.org/) To find and fix problems in your JavaScript code.
 - [Prettier](https://prettier.io/) to format files.
+- [Hygen](https://github.com/jondot/hygen) to create components automatically through the console.
 - [Jest](https://jestjs.io/) for testing.
 - [Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
 - [GitHub Actions](https://github.com/features/actions) for Continuous Integration.
@@ -26,9 +27,9 @@ In software development keeping up to date with technologies is crucial and when
 
 This kind of thinking makes updating and renewing the project packages to be forgotten and never done. This is why I made this _always up to date_ React Template which always will have the **dependencies updated without making the project fail**.
 
-How? Adding the [renovate bot](https://github.com/renovatebot) to check for dependencies updates and also to submit PRs to update them. Also, set up a CI with [GitHub Actions](https://github.com/features/actions) to always check that the build passes with the updated dependencies in the PR before merging it with master.
+How? Adding the [renovate bot](https://github.com/renovatebot) to check for dependencies updates and also to submit PRs to update them. Also, set up a CI with [GitHub Actions](https://github.com/features/actions) to always check that the build passes with the updated dependencies in the PR before merging it with master. [Here](https://www.ramonmorcillo.com/auto-update-dependencies-safely-github-actions/) I explain the full process.
 
-I did not add any styling library to leave that personal option to the user. Although I am planning to add [Storybook](https://storybook.js.org/) to it.
+I did not add any styling library to leave that personal option to the user. 
 
 ## Setup the project
 
@@ -62,6 +63,12 @@ You will also see any lint errors in the console.
 ### `npm run lint` & `npm run lint:fix`
 
 Run ESLint on the project to report wrong patterns on the code, and the second one also tries to fix them.
+
+### `npm run new:component`
+
+It asks for a `path` and a `name` and creates a new functional component with that name in the path provided.
+
+If no path is provided it is created in the default `src/components/` path.
 
 
 ### `npm run format`
