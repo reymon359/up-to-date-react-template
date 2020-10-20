@@ -40,7 +40,7 @@
     "prettier": "2.1.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "react-scripts": "3.4.3",
+    "react-scripts": "3.4.4",
     "typescript": "3.9.7"
   },
   "eslintConfig": {
