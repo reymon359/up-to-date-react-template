@@ -15,7 +15,6 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ignore-path .gitignore . --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint --fix --ignore-path .gitignore . --ext .ts,.tsx,.js,.jsx",
-    "format": "prettier \"**/*.{ts,tsx,css,graphql}\" --write",
     "type-check": "tsc",
     "type-check:watch": "tsc -w",
     "new:component": "hygen component new"
