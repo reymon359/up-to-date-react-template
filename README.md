@@ -19,14 +19,15 @@ An _always up to date_ React Template with the following technologies:
 - [GitHub Pages](https://pages.github.com/) to deploy the project.
 - [Commitlint](https://github.com/conventional-changelog/commitlint) to enforce [conventional commit format](https://www.conventionalcommits.org/).
 - [GitGuardian](https://github.com/marketplace/actions/gitguardian-shield-action) to check for exposed credentials.
+- [GitHub Issues and Pull Requests Templates](https://docs.github.com/en/github/building-a-strong-community/about-issue-and-pull-request-templates) to submit new Issues and Pull Requests.
 
 ## Motivation
 
-In software development keeping up to date with technologies is crucial and when working on a project for a long time updating the packages that are being used is usually forgotten. And why if the project works perfectly with the current ones? 
+In software development keeping up to date with technologies is crucial and when working on a project for a long time updating the packages that are being used is usually forgotten. And why should you do it if the project works perfectly with the current ones? 
 
 This kind of thinking makes updating and renewing the project packages to be forgotten and never done. This is why I made this _always up to date_ React Template which always will have the **dependencies updated without making the project fail**.
 
-How? Adding the [renovate bot](https://github.com/renovatebot) to check for dependencies updates and also to submit PRs to update them. Also, set up a CI with [GitHub Actions](https://github.com/features/actions) to always check that the build passes with the updated dependencies in the PR before merging it with master. [Here](https://www.ramonmorcillo.com/auto-update-dependencies-safely-github-actions/) I explain the full process.
+How? Adding the [renovate bot](https://github.com/renovatebot) to check for dependencies updates and submit PRs to update them. Also, set up a CI with [GitHub Actions](https://github.com/features/actions) to always check the build passes with the updated dependencies in the PR before merging it with master. [Here](https://www.ramonmorcillo.com/auto-update-dependencies-safely-github-actions/) I explain the full process.
 
 I did not add any styling library to leave that personal option to the user. 
 
