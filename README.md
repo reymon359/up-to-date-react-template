@@ -11,8 +11,7 @@ An _always up to date_ React Template with the following technologies:
 
 - [Create React App](https://create-react-app.dev/) as the boilerplate.
 - [TypeScript](https://www.typescriptlang.org/) for type-safe code and other advantages!
-- [ESlint](https://eslint.org/) To find and fix problems in your JavaScript code.
-- [Prettier](https://prettier.io/) to format files.
+- [ESlint](https://eslint.org/) To find and fix problems in your JavaScript code. Although [Prettier](https://prettier.io/) was used to format files now the linter `fix` option does it.
 - [Hygen](https://github.com/jondot/hygen) to create components automatically through the console.
 - [Jest](https://jestjs.io/) for testing.
 - [Renovate](https://renovate.whitesourcesoftware.com/) to check and update packages.
@@ -62,19 +61,13 @@ You will also see any lint errors in the console.
 
 ### `npm run lint` & `npm run lint:fix`
 
-Run ESLint on the project to report wrong patterns on the code, and the second one also tries to fix them.
+Run ESLint on the project to report wrong patterns on the code, and the second one also tries to fix and format them.
 
 ### `npm run new:component`
 
 It asks for a `path` and a `name` and creates a new functional component with that name in the path provided.
 
 If no path is provided it is created in the default `src/components/` path.
-
-
-### `npm run format`
-
-formats document files according to the rules of the `.prettierrc` file.<br />
-See more information about prettier configuration [here](https://prettier.io/docs/en/configuration.html).
 
 ### `npm run test`
 
