@@ -2,7 +2,7 @@ module.exports = [
   {
     type: 'input',
     name: 'path',
-    message: 'New component path: (empty for \'components/\')'
+    message: "New component path: (empty for 'components/')"
   },
   {
     type: 'input',
