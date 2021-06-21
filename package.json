@@ -40,7 +40,7 @@
     ]
   },
   "dependencies": {
-    "gh-pages": "3.2.2",
+    "gh-pages": "3.2.3",
     "hygen": "6.1.0",
     "next": "latest",
     "react": "17.0.2",
